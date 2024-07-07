@@ -1,0 +1,43 @@
+.newsContainer {
+    height: fit-content;
+    margin: 5px 25px;
+}
+
+.news1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.newsImgTop {
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.newsPar {
+    text-align: justify;
+    font-size: 18px;
+}
+
+.newsContent {
+    margin: 0 25px;
+}
+
+.newsLink {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.pageTitle {
+    border-bottom: #FFA800 solid 1px;
+}
+
+.newsLink:hover {
+    color: #FFA800;
+}
+

@@ -1,0 +1,77 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: middle;
+    background-color: #f4f4f4;
+}
+
+.main-title {
+    text-align: center;
+    margin-top: 20px;
+    color: #000000; /* Change the color to your desired color */
+}
+
+.news-box {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 25px 20px rgba(0, 0, 0, 0.1);
+    border: 2px solid #ffa800; /* Border color */
+}
+
+.article-image {
+    width: 100%; /* Make the image fill its container */
+    height: 200px; /* Set a fixed height for the images */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    border-radius: 8px 8px 0 0; /* Add rounded corners to the top */
+    margin-bottom: 20px;
+}
+
+.news-article {
+    margin-bottom: 20px;
+}
+
+.news-article h3 {
+    color: #000000;
+}
+
+.news-article p {
+    color: #000000;
+}
+
+.read-more-container {
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 650px;
+}
+
+.read-more {
+    text-decoration: none;
+    color: #fff;
+    background-color: #ffa800;
+    padding: 10px 20px;
+    border: none; /* Remove default button border */
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer; /* Add cursor pointer on hover */
+    transition: background-color 0.3s ease;
+}
+
+.read-more:hover {
+    background-color: #ff9900;
+}
+
+.news-article a {
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.news-box h2 {
+    color: #ffa800; /* Change the color to your desired color */
+}

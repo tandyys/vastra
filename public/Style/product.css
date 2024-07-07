@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.container h1 {
+    font-display:inherit;
+    padding: 30px;
+}
+
+.products {
+    justify-content:space-around;
+    display: flex;
+    flex-wrap: wrap;
+    /* border-color: 2px solid aqua; */
+    /* background-color: aqua; */
+    text-align: left;
+}
+
+.product{
+    /* border-color: 2px solid red; */
+    margin: 25px 25px 100px 25px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0);
+    -webkit-box-shadow: 11px 8px 9px 5px rgba(0,0,0,0.23);
+    -moz-box-shadow: 11px 8px 9px 5px rgba(0,0,0,0.23);
+    /* background-color: red; */
+    height: 100%;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.product h3 {
+    font-size: 30px;
+}
+
+.product img {
+    width: 300px;
+}
+
+.product .left {
+    float: left;
+    width: 60%;
+}
+
+.product .right {
+    float: left;
+    width: 40%;
+}
+
+.product .right button{
+    height:40px;
+    width: 150px;
+    background-color: white;
+    position: relative;
+    outline: none;
+    border-style: solid;
+    border-color: #FFA800;
+    border-width: 1px;
+    top: 70%;
+    left: 40%;
+    transform: translate(-50%, 30%);
+    border-radius: 3px;
+    font-weight: 800;
+    font-size: 17px;
+    color: #FFA800;
+    cursor: pointer;
+    overflow: hidden;
+}
+.product .right button:hover{
+    color: whitesmoke;
+}
+.product .right button:before{
+    content:'';
+    height:45px;
+    width: 0px;
+    background-color: #D29D2B;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) skewX(-25deg);
+    z-index: -1;
+    transition: all .4s;
+}
+.product .right button:hover:before{
+    width:175%;
+}

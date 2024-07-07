@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>News</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/Style/navStyle.css">
+    <link rel="stylesheet" href="/Style/footStyle.css">
+    <link rel="stylesheet" href="/Style/newsCon.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="/assets/1.png" type="image/x-icon">
+</head>
+<body>
+    @include('/partials/navbarAuth')
+    <br>
+
+    <div class="all-wrapper">
+        @foreach($newsData as $news)
+            <div class="news-content">
+                <h2>{{ $news->title }}</h2>
+                <p>{{ $news->content }}</p>
+                <p>Indonesian Batik, with its intricate patterns and centuries-old heritage, has found an unexpected ambassador in the world of sports leadership. The choice to wear Batik is not just a nod to fashion; it's a powerful acknowledgment of the importance of recognizing and embracing the cultural identities that shape our interconnected world. The mesmerizing motifs of the Batik fabric served as a canvas, telling a story of Indonesia's artistry and the profound symbolism embedded in each design. As the FIFA President donned the Batik garment, it echoed a call for inclusivity, urging the world to appreciate and honor the unique narratives that define each nation. Indonesian Batik, with its intricate patterns and centuries-old heritage, found an unexpected ambassador in the realm of international sports leadership. Beyond being a mere sartorial choice, the President's decision to wear Batik becomes a potent symbol, advocating for the importance of recognizing and embracing the cultural identities that shape our global community. This unexpected marriage of sports and cultural expression offers a fresh perspective on how leaders can influence perceptions and facilitate understanding. The FIFA President's attire becomes a vehicle for cultural diplomacy, a nuanced form of communication that transcends borders and speaks to the shared values that bind us together. At its core, Batik is a form of wearable art. Its mesmerizing motifs tell stories of Indonesia's rich cultural history and convey profound symbolism. Each design is a meticulous arrangement of dots and lines, forming intricate patterns that often represent nature, mythology, or daily life. As the President donned the Batik garment, he became a walking canvas, showcasing not just a fashion choice but an entire cultural narrative. The intricacy of Batik's craftsmanship, the delicate wax-resist dyeing technique, and the vibrant hues used in its creation highlight the dedication and skill of Indonesian artisans. Through this fashion choice, the FIFA President not only pays homage to the craftsmanship but also amplifies the voice of Indonesian artists on the global stage.</p>
+                <p>Beyond the surface of fashion, this choice holds a deeper significance. It sends a resounding message that sports, particularly football, has the power to unite people across borders, transcending language, race, and nationality. The FIFA President's Batik attire becomes a visual metaphor for the shared values that bind us together on the pitch of global camaraderie. Indonesia, known for its warm hospitality and cultural richness, shares a piece of its identity with the global audience through the Batik worn by the FIFA President. This cross-cultural exchange, happening on one of the grandest stages in sports leadership, underscores the idea that dialogue between nations goes beyond politics and economics; it extends into the realm of shared experiences and appreciation for the arts.</p>
+                <p>The intricate details of the Batik fabric carry meanings deeply rooted in Indonesian traditions. Each motif tells a story, reflects a belief, or pays homage to nature. By wearing Batik, the FIFA President not only pays respect to Indonesian craftsmanship but also invites the world to explore the stories interwoven into the fabric—a rich narrative that transcends geographical boundaries. This cultural diplomacy through fashion is a reminder that leaders in the sports realm play a crucial role in shaping perceptions and fostering understanding. As the FIFA President showcases Indonesian Batik, he becomes a catalyst for conversations around cultural exchange, encouraging a broader dialogue that extends far beyond the football pitch. Leadership in the sports realm carries a unique responsibility — one that goes beyond scoreboards and championships. The FIFA President's choice to wear Indonesian Batik exemplifies the role of sports leaders as cultural ambassadors. By showcasing Batik on an international stage, the President initiates a dialogue about the importance of cultural exchange, inviting the world to explore the stories and traditions embedded in this vibrant fabric. The Batik-clad leader becomes a catalyst for conversations around cultural diplomacy, urging nations to recognize the soft power inherent in the arts and cultural expressions. This diplomatic exchange, happening on one of the grandest stages in sports, has the potential to influence perceptions and foster a deeper understanding between nations.</p>
+                <p>The symbolism of this fashion statement reverberates not only within the world of sports but across various sectors. It prompts individuals to reflect on the importance of preserving and celebrating cultural heritage, urging us to cherish the uniqueness that defines each corner of our diverse planet. In conclusion, the FIFA President's choice to wear Indonesian Batik is more than a fashion statement; it is a powerful testament to the unifying force of sports and the significance of recognizing and respecting diverse cultures. As the Batik-clad leader steps onto the global stage, he invites us all to embrace the beauty of our differences and find common ground in the shared love for the beautiful game. This gesture serves as a beacon of hope, signaling that through mutual respect and understanding, we can create a world where cultural appreciation becomes the norm, fostering a global community that celebrates the richness of its collective heritage. This diplomatic gesture serves as a foundation for building a global community that celebrates the richness of its collective heritage. It calls for a world where leaders, whether in sports or politics, recognize the soft power of cultural expressions and use their influence to foster understanding, unity, and appreciation for the diverse cultures that make our world extraordinary. As the President continues to wear Indonesian Batik, he paves the way for a future where cultural diplomacy becomes an integral part of global leadership, leaving an indelible mark on the canvas of international relations.</p>
+            </div>
+            @endforeach
+   </div>
+    
+    @include('partials/footer')
+    <br>
+    <br>
+
+</body>
+</html>

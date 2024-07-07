@@ -1,0 +1,149 @@
+.carousel-inner {
+    width: 100%;
+    height:680px;
+}
+
+.card-brand {
+    width: fit-content;
+    margin-left: 50px;
+}
+
+.card-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btn-card {
+    color: black;
+}
+
+.card-story1 {
+    width: 70%;
+    margin-left: 200px;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.card-body1 {
+    margin-top: 0;
+    margin-left: 200px;
+    background-color: white;
+    border-radius: 0 0 15px 15px;
+    width: 70%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.card-story-title {
+    margin-left: 15px;
+    padding-top: 10px;
+}
+
+.card-body2 {
+    margin-left: 200px;
+    background-color: white;
+    border-radius: 15px 15px 0 0;
+    width: 70%;
+    margin-bottom: 0px;
+}
+
+.card-story2 {
+    margin-top: 0;
+    margin-left: 200px;
+    background-color: white;
+    border-radius: 0 0 15px 15px;
+    width: 70%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.card-img-bottom {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 0 0 15px 15px;
+    margin-top: 0;
+}
+
+.card-text-desc {
+    margin-left: 15px;
+}
+
+.btn-card-story {
+    color: black;
+    margin-left: 15px;
+    padding-bottom: 10px;
+}
+
+.card-product-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: transparent;
+}
+
+.product-content {
+    width:fit-content;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    border-radius: 1.2em;
+}
+
+.product-desc {
+    background: white;
+    border-radius: 0 0 10px 10px;
+    padding-top: 5px;
+}
+
+.product-img {
+    background: center/cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.review {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 15px;
+}
+
+.stars i {
+    color: yellow;
+    font-size: .8em;
+}
+
+.stars span {
+    font-size: .85em;
+    color: rgb(36, 36, 36);
+}
+
+.product-content img {
+    border-radius: 10px 10px 0 0;
+}
+
+.product-desc h5 {
+    padding-left: 10px;
+}
+
+.price {
+    padding-left: 10px;
+}
+
+.btn {
+    margin-left: 75%;
+    margin-bottom: 20px;
+}
+
+.btn-caution {
+    width: fit-content;
+    background-color: #FFA800;
+    margin-left: 47.5%;
+    border-radius: 10px;
+}
+
+.btn-caution a {
+    text-decoration: none;
+    color: white;
+    padding: 1em;
+}
